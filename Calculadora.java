@@ -11,17 +11,21 @@ public class Calculadora{
     }
     public double division(double x, double y){
         resultado = x / y;
-
+        return resultado;
+    }
     public double resta(double x, double y){
         resultado = x - y;
         return resultado;
     }
     public double multiplicacion(double x, double y){
         resultado = x * y;
-
         return resultado;
     }
     public static void main(String[] args) {
-        
+        Calculadora miCalculadora = new Calculadora(0, 0);
+        System.out.println(miCalculadora.suma(1, 2));
+        System.out.println(miCalculadora.resta(3, 4));
+        System.out.println(miCalculadora.multiplicacion(5, 6));
+        System.out.println(miCalculadora.division(7, 8));
     }
 }
