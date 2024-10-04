@@ -5,8 +5,8 @@ public class Calculadora{
         this.x = x;
         this.y = y;
     }
-    public double suma(double x, double y){
-        resultado = x + y;
+    public double resta(double x, double y){
+        resultado = x - y;
         return resultado;
     }
     public static void main(String[] args) {
