@@ -9,6 +9,10 @@ public class Calculadora{
         resultado = x - y;
         return resultado;
     }
+    public double multiplicacion(double x, double y){
+        resultado = x * y;
+        return resultado;
+    }
     public static void main(String[] args) {
         
     }
